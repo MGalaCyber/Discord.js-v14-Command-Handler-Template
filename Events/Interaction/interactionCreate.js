@@ -12,6 +12,7 @@ const Emoji = require("../../Structures/Settings/emojis.json");
 const Embed = require("../../Structures/Settings/embed.json");
 
 //===============< OTHERS >===============\\
+const color = require("colors");
 
 //=====================================| Code |=====================================\\
 module.exports = {

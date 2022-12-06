@@ -2,7 +2,7 @@
 const { Client, ChatInputCommandInteraction } = require("discord.js");
 
 //===============< FUNCTIONS >===============\\
-const { errorCmdLogsInt } = require("../../Structures/Functions/errorCmdLogs.js");
+const { errorCmdLogsSelect } = require("../../Structures/Functions/errorCmdLogs.js");
 
 //===============< SETTINGS >===============\\
 const Webhook = require("../../Structures/Settings/webhook.json");
@@ -11,6 +11,7 @@ const Emoji = require("../../Structures/Settings/emojis.json");
 const Embed = require("../../Structures/Settings/embed.json");
 
 //===============< OTHERS >===============\\
+const color = require("colors");
 
 //=====================================| Code |=====================================\\
 module.exports = {
@@ -46,7 +47,7 @@ module.exports = {
             try {
                 command.execute(client, interaction);
             } catch (error) {
-                errorCmdLogsInt(client, interaction, error)
+                errorCmdLogsSelect(client, interaction, error)
                 console.log(`${color.bold.red(`[INTERACTION > SELECTION: ERROR]`)} ` + `${error}`.bgRed);
             };
         };
