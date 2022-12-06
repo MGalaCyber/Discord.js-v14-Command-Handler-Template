@@ -39,6 +39,7 @@
 
 ---------
 # [NEW] Discord.js v14 Handler Template
+### I suggest downloading the template handler in the [Release's](https://github.com/MGalaCyber/Discord.js-v14-Command-Handler-Template/releases) column, to avoid bugs
 ### I suggest read wiki the template handler in the [Wiki's](https://github.com/MGalaCyber/OUTDATED-Discord.js-v14-Command-Handler/wiki) for first time making application discord bot.
 
 ---------
