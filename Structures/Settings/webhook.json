@@ -1,0 +1,8 @@
+{
+    "System": {
+        "ErrorLogs": {
+            "ID": "WEBHOOK_ID",
+            "TOKEN": "WEBHOOK_TOKEN"
+        }
+    }
+}

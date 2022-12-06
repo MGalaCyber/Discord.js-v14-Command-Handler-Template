@@ -1,0 +1,2 @@
+Restructuring is prohibited in this folder, and in any call/fetch script files that point to this folder especially in the "index.js" file
+If you still do that you will get a very big error

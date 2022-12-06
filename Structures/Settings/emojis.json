@@ -1,0 +1,12 @@
+{
+    "Message": {
+        "SUCCESS" : "✅",
+        "ERROR" : "❎"
+    },
+
+    "System": {
+        "Ping": "🏓",
+        "Loading": "⏳",
+        "Search": "🔎"
+    }
+}

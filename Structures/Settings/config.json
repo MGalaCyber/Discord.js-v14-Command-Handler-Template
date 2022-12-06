@@ -1,0 +1,26 @@
+{
+    "Application_Information": {
+        "TOKEN": "PASTE_BOT_TOKEN_HERE"
+    },
+    
+    "DEVELOPER": {
+            "OWNER": ["PASTE_YOUR_DISCORD_ID_HERE"],
+            "Settings": {
+                    "Enable_Debug": false,
+                    "Enable_Error": false,
+                    "Enable_Database": false,
+                    "Enable_Express": false
+            },
+            "Port": 8080
+    },
+    
+    "CONNECTIONS": {
+            "MONGO_URL": "PASTE_MONGODB_URL_HERE",
+            "OAUTHO2_INVITE": ""
+    
+    },
+    
+    "SERVER_ID": {
+            "OFFICIAL": ["PASTE_YOUR_SERVER_ID_HERE"]
+    }
+}

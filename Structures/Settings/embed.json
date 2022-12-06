@@ -1,0 +1,8 @@
+{
+  "Colors": {
+    "color": "#11FF28",
+    "successcolor": "#00FF00",
+    "stanbycolor": "#FFFF00",
+    "wrongcolor": "#FF0000"
+  }
+}
