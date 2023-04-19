@@ -295,36 +295,4 @@
 		],
 		"description": "Create a new module Events Commands Discord.js v14 MGalaCyber Handlers"
 	},
-	"Discord.js > Handlers Function [DJS V14]": {
-		"prefix": "!djs:Handler",
-		"body": [
-			"//=====================================| Code |=====================================\\\\\\",
-			"",
-			"async function handleName1(client, color) {",
-			"    const { readdirSync } = require(\"fs\");",
-			"",
-			"    console.log(\"================================< LIMIT >================================\".gray);",
-			"",
-			"    const commandsFolders = readdirSync(`${process.cwd()}/DirName`);",
-			"",
-			"    for (const folder of commandsFolders) {",
-			"        const commandsFiles = readdirSync(`${process.cwd()}/DirName{folder}`).filter(file => file.endsWith(\".js\"));",
-			"        for (const file of commandsFiles) {",
-			"            const commandFile = require(`${process.cwd()}/DirName{folder}/${file}`);",
-			"            client.commands.set(commandFile.data.name, commandFile);",
-			"        };",
-			"    };",
-			"    console.log(`${color.bold.green(`[HANDLERS]`)} ` + `[${privateCommandsArray.length}] `.cyan + `was loaded!`.yellow);",
-			"};",
-			"",
-			"async function handleName2(client, color) {",
-			"    console.log(\"================================< LIMIT >================================\".gray);",
-			"",
-			"    console.log(`${color.bold.yellow(`[HANDLERS]`)} ` + `unloaded commands success!`.yellow);",
-			"};",
-			"",
-			"module.exports = { handleName1, handleName2 };"
-		],
-		"description": "Create a new module Handler Function Discord.js v14 MGalaCyber Handlers"
-	}
 }
