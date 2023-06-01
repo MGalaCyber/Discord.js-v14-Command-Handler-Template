@@ -43,6 +43,10 @@
 ### I suggest read wiki the template handler in the [Wiki's](https://github.com/MGalaCyber/OUTDATED-Discord.js-v14-Command-Handler/wiki) for first time making application discord bot.
 
 ---------
+# 🔔 Notice!
+### Now for Decrypted version is Available on [Ko-Fi Shop](https://ko-fi.com/galaxd1274/shop). You can buy like Basic/Master version with Different Features. By buying my project products, you help me to keep motivated and passionate about developing other projects.
+
+---------
 ## ⚙ Configuration
 - ⚠ Never share your tokens or api keys publicly
 - Create and Modify `.env` and fill out the values:
